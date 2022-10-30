@@ -26,6 +26,18 @@ public class Article{
     public int getQte_stock(){
         return Qte_stock;
     }
+    public void setCode(int cde){
+        code=cde;
+    }
+    public void setDesignation(String desgn){
+        designation=desgn;
+    }
+    public void setPrix(int prx){
+        prix=prx;
+    }
+    public void setQte_stock(int qte){
+        Qte_stock=qte;
+    }
     public String afficher(){
         return "article "+code+" Designation "+designation+" prix "+prix+" Qte_stock "+Qte_stock;
     }
